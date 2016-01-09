@@ -6,7 +6,7 @@ API = BASE + VERSION
 
 ACCOUNT_SID = 'ACaffc70db2a2f99b053bb455ba14694ef'
 TOKEN = 'e05065ed11100e24a8b8ddd24aac7f4c'
-NUMBER = '+16572066509'
+NUMBER = '+19513392208'
 
 def sendMessage(to_number, body):
 
@@ -21,6 +21,4 @@ def sendMessage(to_number, body):
 	r = requests.post(URL, data = payload, auth = (ACCOUNT_SID,TOKEN))
 	print(r)
 
-sendMessage('+19513392208', 'Hello, from diy iot')
-
-
+sendMessage('+16572066509', 'Hello, from diy iot')
