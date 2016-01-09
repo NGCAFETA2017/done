@@ -18,8 +18,8 @@ def sendMessage(to_number, body):
 		'Body': body
 		}
 
-r = request.post(URL, data = payload, auth = (ACCOUNT_SID,TOKEN))
-print(r)
+	r = requests.post(URL, data = payload, auth = (ACCOUNT_SID,TOKEN))
+	print(r)
 
 sendMessage('+19513392208', 'Hello, from diy iot')
 
