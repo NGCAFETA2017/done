@@ -4,8 +4,8 @@ BASE = 'https://api.twilio.com/'
 VERSION = '2010-04-01/'
 API = BASE + VERSION
 
-ACCOUNT_SID = 'ACaffc70db2a2f99b053bb455ba14694ef'
-TOKEN = 'e05065ed11100e24a8b8ddd24aac7f4c'
+ACCOUNT_SID = 'AC639b11fb2dbbe5e6416a104a51d55c07'
+TOKEN = '3817c55f21fc7c3bd075d061be13c7fd'
 NUMBER = '+19513392208'
 
 def sendMessage(to_number, body):
